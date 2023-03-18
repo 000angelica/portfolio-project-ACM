@@ -4,3 +4,7 @@ font-family: "Roboto", sans-serif; */
 
 body {
 }
+h1 {
+  font-family: Nunito;
+  font-style: bold;
+}
