@@ -4,7 +4,37 @@ font-family: "Roboto", sans-serif; */
 
 body {
 }
-h1 {
-  font-family: Nunito;
-  font-style: bold;
+:root {
+  --primary-color1: #272044;
+  --primary-color2: #588d9c;
+  --primary-color3: #c06c84;
+  --heading-font-family: Roboto, sans-serif;
+  --secondary-font-family: Poppins;
+  --paragraph-font-family: Nunito;
+  --72-font-size: 72px;
+  --64-font-size: 64px;
+  --24-paragraph-size: 24px;
+}
+.hero {
+  text-align: center;
+  background-color: var(--primary-color1);
+  color: white;
+  margin: 0 auto;
+  padding: 80px 40px;
+}
+.hero h1 {
+  font-size: var(--72-font-size);
+}
+.hero h1,
+h2 {
+  font-family: var(--secondary-font-family);
+  font-weight: bold;
+}
+.hero h2 {
+  font-size: var(--64-font-size);
+}
+.hero h3 {
+  font-family: var(--secondary-font-family);
+  font-size: 30px;
+  font-weight: normal;
 }
