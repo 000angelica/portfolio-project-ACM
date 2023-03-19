@@ -50,3 +50,11 @@ h2 {
 .container {
   justify-content: space-evenly;
 }
+
+#social-icons {
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  border-radius: 3px;
+  background-color: #c06c84;
+}
