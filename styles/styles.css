@@ -39,9 +39,9 @@ h2 {
   font-weight: normal;
 }
 .index-heading {
-  font-size: var(--64-font-size);
+  font-size: 50px;
   text-align: center;
-  margin-top: 250px;
+  margin-top: 200px;
   color: var(--primary-color1);
 }
 .index-heading:hover {
