@@ -38,3 +38,15 @@ h2 {
   font-size: 30px;
   font-weight: normal;
 }
+.index-heading {
+  font-size: var(--64-font-size);
+  text-align: center;
+  margin-top: 250px;
+  color: var(--primary-color1);
+}
+.index-heading:hover {
+  text-decoration: underline;
+}
+.container {
+  justify-content: space-evenly;
+}
