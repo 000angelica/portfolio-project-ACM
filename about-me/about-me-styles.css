@@ -1,0 +1,67 @@
+:root {
+  --primary-color1: #272044;
+  --primary-color2: #588d9c;
+  --primary-color3: #c06c84;
+  --heading-font-family: Roboto, sans-serif;
+  --secondary-font-family: Poppins;
+  --paragraph-font-family: Nunito;
+  --72-font-size: 72px;
+  --64-font-size: 64px;
+  --24-paragraph-size: 24px;
+}
+.about-section {
+  color: var(--primary-color1);
+}
+.about-section h1 {
+  margin-bottom: 160px;
+}
+.about-section h2 {
+  font-size: var(--72-font-size);
+  font-family: var(--heading-font-family);
+  font-weight: normal;
+  color: var(--primary-color1);
+}
+.about-section p {
+  font-family: var(--paragraph-font-family);
+  font-size: 24px;
+}
+.project-fonts {
+  font-family: var(--secondary-font-family);
+  font-size: 20px;
+}
+h3 {
+  color: var(--primary-color2);
+  font-size: var(--64-font-size);
+  font-family: var(--heading-font-family);
+}
+p {
+  font-size: 48px;
+  font-family: var(--paragraph-font-family);
+}
+.fs-3 {
+  margin-right: 90px;
+}
+.socials {
+  width: fit-content;
+  margin-left: 160px;
+}
+.work-together {
+  margin-top: 20px;
+}
+.col-3 {
+  border-radius: 3px;
+  background-color: #c06c84;
+}
+.dots {
+  margin-top: 145px;
+  text-align: center;
+}
+.artwork {
+  background-color: var(--primary-color1);
+  justify-content: center;
+}
+h4 {
+  color: white;
+  font-size: 65px;
+  font-family: var(--heading-font-family);
+}

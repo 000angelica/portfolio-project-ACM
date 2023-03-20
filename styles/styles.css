@@ -58,3 +58,6 @@ h2 {
   border-radius: 3px;
   background-color: #c06c84;
 }
+.col-3 {
+  width: fit-content;
+}
