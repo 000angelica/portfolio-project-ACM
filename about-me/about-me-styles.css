@@ -13,21 +13,26 @@
   color: var(--primary-color1);
 }
 .about-section h1 {
+  font-size: var(--72-font-size);
+  font-family: var(--heading-font-family);
+  font-weight: bold;
   margin-bottom: 160px;
 }
 .about-section h2 {
-  font-size: var(--72-font-size);
+  font-size: 60px;
   font-family: var(--heading-font-family);
-  font-weight: normal;
+  font-weight: lighter;
   color: var(--primary-color1);
 }
 .about-section p {
   font-family: var(--paragraph-font-family);
-  font-size: 24px;
-}
-.project-fonts {
-  font-family: var(--secondary-font-family);
   font-size: 20px;
+}
+.view-All-Projects {
+  font-family: var(--secondary-font-family);
+}
+.view-All-Projects:hover {
+  text-decoration: underline;
 }
 h3 {
   color: var(--primary-color2);
@@ -58,7 +63,14 @@ p {
 }
 .artwork {
   background-color: var(--primary-color1);
+  padding: 60px;
+}
+.art-1,
+.art-2 {
+  width: fit-content;
+  display: flex;
   justify-content: center;
+  margin: auto;
 }
 h4 {
   color: white;
