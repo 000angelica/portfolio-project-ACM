@@ -51,13 +51,14 @@ h2 {
   justify-content: space-evenly;
 }
 
-#social-icons {
-  display: flex;
-  justify-content: center;
-  margin: 0;
-  border-radius: 3px;
-  background-color: #c06c84;
-}
 .col-3 {
   width: fit-content;
+}
+.socials {
+  display: flex;
+  justify-content: center;
+  background: var(--primary-color3);
+  padding: 20px;
+  width: 100%;
+  border: 0;
 }
