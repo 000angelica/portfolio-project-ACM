@@ -1,0 +1,27 @@
+:root {
+  --primary-color1: #272044;
+  --primary-color2: #588d9c;
+  --primary-color3: #c06c84;
+  --heading-font-family: Roboto, sans-serif;
+  --secondary-font-family: Poppins;
+  --paragraph-font-family: Nunito;
+  --72-font-size: 72px;
+  --64-font-size: 64px;
+  --24-paragraph-size: 24px;
+}
+.container {
+  color: var(--primary-color1);
+}
+.work-together {
+  color: #588d9c;
+}
+.info-para {
+  color: var(--primary-color1);
+}
+
+h1 {
+  font-size: var(--72-font-size);
+  color: var(--primary-color1);
+}
+h3 {
+}
