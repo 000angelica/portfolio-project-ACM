@@ -21,7 +21,7 @@
 .about-section h2 {
   font-size: 60px;
   font-family: var(--heading-font-family);
-  font-weight: lighter;
+
   color: var(--primary-color1);
 }
 .about-section p {
@@ -46,16 +46,9 @@ p {
 .fs-3 {
   margin-right: 90px;
 }
-.socials {
-  width: fit-content;
-  margin-left: 160px;
-}
+
 .work-together {
-  margin-top: 20px;
-}
-.col-3 {
-  border-radius: 3px;
-  background-color: #c06c84;
+  margin-top: 10px;
 }
 .dots {
   margin-top: 145px;
@@ -76,4 +69,31 @@ h4 {
   color: white;
   font-size: 65px;
   font-family: var(--heading-font-family);
+}
+@media (max-width: 900px) {
+  body {
+    text-align: center;
+  }
+  .about-section h1 {
+    font-size: 60px;
+    text-align: center;
+    /* color: red;*/
+  }
+  h2 .bio {
+    font: 20px;
+  }
+  .about-section p {
+    font-size: 16px;
+  }
+  .selfie {
+    width: 500px;
+    text-align: center;
+  }
+  .socials {
+    margin: 0;
+  }
+  .bio p {
+    width: fit-content;
+    text-align: center;
+  }
 }
