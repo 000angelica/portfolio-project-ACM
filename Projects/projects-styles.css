@@ -39,6 +39,11 @@ h3 {
   font-family: var(--paragraph-font-family);
   font-size: 30px;
 }
-social-icons {
+.social-icons {
   background-color: var(--primary-color3);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  width: 100%;
+  border: 0;
 }
