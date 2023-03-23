@@ -12,16 +12,33 @@
 .container {
   color: var(--primary-color1);
 }
-.work-together {
-  color: #588d9c;
-}
-.info-para {
-  color: var(--primary-color1);
-}
 
 h1 {
   font-size: var(--72-font-size);
   color: var(--primary-color1);
+  margin-bottom: 90px;
 }
 h3 {
+  font-size: 48px;
+}
+.img-2 {
+  margin-top: 90px;
+}
+.img-3 {
+  margin-top: 90px;
+}
+.all-dots-image {
+  margin-top: 90px;
+}
+.work-together {
+  color: var(--primary-color2);
+  font-family: var(--heading-font-family);
+}
+.info-para {
+  color: var(--primary-color1);
+  font-family: var(--paragraph-font-family);
+  font-size: 30px;
+}
+social-icons {
+  background-color: var(--primary-color3);
 }
