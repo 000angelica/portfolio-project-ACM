@@ -2,7 +2,33 @@
 font-family: "Poppins", sans-serif;
 font-family: "Roboto", sans-serif; */
 
-body {
+.nav-bar {
+  background-color: var(--primary-color1);
+}
+.initials {
+  color: white;
+  line-height: 35px;
+  font-size: 25px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+nav,
+ul li {
+  display: inline;
+  padding: 10px;
+  margin: 0;
+  font-size: 15px;
+  font-family: var(--paragraph-font-family);
+  line-height: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  transition: all 140ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color3);
 }
 :root {
   --primary-color1: #272044;
@@ -41,7 +67,7 @@ h2 {
 .index-heading {
   font-size: 50px;
   text-align: center;
-  margin-top: 200px;
+  margin-top: 100px;
   color: var(--primary-color1);
 }
 .index-heading:hover {
@@ -61,4 +87,18 @@ h2 {
   padding: 20px;
   width: 100%;
   border: 0;
+}
+@media (max-width: 900px) {
+  .hero h1 {
+    font-size: 60px;
+  }
+  .hero h2 {
+    font-size: 30px;
+  }
+  .hero h3 {
+    font-size: 20px;
+  }
+  .index-heading {
+    font-size: 40px;
+  }
 }
