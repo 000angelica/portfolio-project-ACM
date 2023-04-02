@@ -1,3 +1,30 @@
+.nav-bar {
+}
+.initials {
+  color: var(--primary-color1);
+  line-height: 35px;
+  font-size: 25px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+nav,
+ul li {
+  display: inline;
+  padding: 10px;
+  margin: 0;
+  font-size: 15px;
+  font-family: var(--paragraph-font-family);
+  line-height: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--primary-color1);
+  transition: all 140ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color3);
+}
 :root {
   --primary-color1: #272044;
   --primary-color2: #588d9c;
@@ -28,25 +55,26 @@
   font-family: var(--paragraph-font-family);
   font-size: 20px;
 }
-.view-All-Projects {
+.view-all-projects {
   font-family: var(--secondary-font-family);
+  transition: all 140ms ease-in-out;
 }
-.view-All-Projects:hover {
+.view-all-projects:hover {
   text-decoration: underline;
+  color: var(--primary-color3);
 }
 h3 {
   color: var(--primary-color2);
-  font-size: var(--64-font-size);
+  font-size: 40px;
   font-family: var(--heading-font-family);
 }
 p {
-  font-size: 48px;
+  font-size: 30px;
   font-family: var(--paragraph-font-family);
 }
 .fs-3 {
   margin-right: 90px;
 }
-
 .work-together {
   margin-top: 10px;
 }
@@ -87,7 +115,8 @@ h4 {
   }
   .selfie {
     width: 500px;
-    text-align: center;
+    display: flex;
+    justify-content: space-evenly;
   }
   .socials {
     margin: 0;
@@ -95,5 +124,13 @@ h4 {
   .bio p {
     width: fit-content;
     text-align: center;
+  }
+  .row {
+    display: flex;
+    justify-content: center;
+  }
+  h3,
+  .info {
+    font-size: 30px;
   }
 }
