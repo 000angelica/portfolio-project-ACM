@@ -99,7 +99,17 @@ h4 {
   font-size: 65px;
   font-family: var(--heading-font-family);
 }
-
+.socials {
+  display: flex;
+  justify-content: center;
+  background: #c8d9de;
+  padding: 20px;
+  width: 100%;
+  border: 0;
+}
+.socials .col-4 {
+  width: fit-content;
+}
 @media (max-width: 900px) {
   body {
     text-align: center;

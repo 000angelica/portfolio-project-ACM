@@ -58,13 +58,15 @@ p {
   font-family: var(--paragraph-font-family);
   font-size: 30px;
 }
-.social-icons {
-  background-color: var(--primary-color3);
+.col-4 {
+  width: fit-content;
+}
+.socials {
   display: flex;
   justify-content: center;
+  background: var(--primary-color3);
   padding: 20px;
   width: 100%;
-  margin-top: 100px;
   border: 0;
 }
 @media (max-width: 900px) {
