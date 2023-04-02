@@ -1,3 +1,30 @@
+.nav-bar {
+}
+.initials {
+  color: var(--primary-color1);
+  line-height: 35px;
+  font-size: 25px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+nav,
+ul li {
+  display: inline;
+  padding: 10px;
+  margin: 0;
+  font-size: 15px;
+  font-family: var(--paragraph-font-family);
+  line-height: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--primary-color1);
+  transition: all 140ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color3);
+}
 :root {
   --primary-color1: #272044;
   --primary-color2: #588d9c;
@@ -49,4 +76,22 @@ h3 {
   padding: 20px;
   width: 100%;
   border: 0;
+}
+@media (max-width: 900px) {
+  h3,
+  .info {
+    font-size: 30px;
+  }
+  .project-container {
+    justify-content: center;
+  }
+  #project-img {
+    width: 75%;
+  }
+  .paragraph-text {
+    margin-left: 15px;
+  }
+  h1 {
+    font-size: 50px;
+  }
 }

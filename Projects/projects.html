@@ -23,12 +23,39 @@
     <script src="https://kit.fontawesome.com/927e6b21c2.js" crossorigin="anonymous"></script>
     <title>ACM Projects</title>
 </head>
+<div class="nav-bar">
+    <div class="container">
+        <nav class="row">
+            <div class="col-6 initials">
+                <a href="/">ACM</a>
+            </div>
+            <ul class=" col-6  d-flex justify-content-end">
+                <li>
+                    <a href="/index.html">
+                        Home</a>
+                </li>
+                <li>
+                    <a href="/about-me/about-me.html">
+                        About</a>
+                </li>
+                <li class="active">
+                    <a href="/Projects/projects.html">
+                        Projects</a>
+                </li>
+                <li>
+                    <a href="/contact/contact.html">
+                        Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</div>
 
 <body>
     <div class="container img-fluid">
         <h1 class="text-center ">PROJECTS</h1>
-        <div class="text-center">
-            <img src="/images/recipe_1.png" width="500px" alt="">
+        <div class="text-center project-container">
+            <img id="project-img" src="/images/recipe_1.png" width="500px" alt="">
             <div>
                 <div class="text-start mt-3">
                     <h3>Project #1</h3>
@@ -45,8 +72,8 @@
         <div class="text-center">
             <img src="/images/Line 15.png" class="all-dots-image" alt="">
         </div>
-        <div class="text-center img-2">
-            <img src="/images/recipe_2.png" width="500px" alt="">
+        <div class="text-center img-2 project-container">
+            <img id="project-img" src="/images/recipe_2.png" width="500px" alt="">
         </div>
         <div class="text-start mt-3">
             <h3>Project #2</h3>
@@ -60,8 +87,8 @@
                 <img src="/images/Line 15.png" class="all-dots-image" alt="">
             </div>
         </div>
-        <div class="text-center img-3">
-            <img src="/images/recipe_3.png" width="500px" alt="">
+        <div class="text-center img-3 project-container">
+            <img id="project-img" src="/images/recipe_3.png" width="500px" alt="">
         </div>
         <div class="text-start mt-3">
             <h3>Project #3</h3>
@@ -83,7 +110,7 @@
             <p class="info-para"> info@acm.com</p>
         </div>
     </div>
-    <div class="social-icons text-center mt-5 mb-3">
+    <div class="social-icons text-center mt-5">
         <div class="row">
             <div class="col-3">
                 <img src="/images/fb-icon.png" width="30" alt="">

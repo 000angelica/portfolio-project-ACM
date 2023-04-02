@@ -83,7 +83,7 @@ h2 {
 .socials {
   display: flex;
   justify-content: center;
-  background: var(--primary-color3);
+  background: #c8d9de;
   padding: 20px;
   width: 100%;
   border: 0;

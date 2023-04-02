@@ -1,3 +1,28 @@
+.initials {
+  color: var(--primary-color1);
+  line-height: 35px;
+  font-size: 25px;
+  font-family: var(--heading-font-family);
+  font-weight: bold;
+}
+nav,
+ul li {
+  display: inline;
+  padding: 10px;
+  margin: 0;
+  font-size: 15px;
+  font-family: var(--paragraph-font-family);
+  line-height: 10px;
+}
+nav a {
+  text-decoration: none;
+  color: var(--primary-color1);
+  transition: all 140ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+  color: var(--primary-color3);
+}
 :root {
   --primary-color1: #272044;
   --primary-color2: #588d9c;
@@ -42,5 +67,35 @@ p {
   margin-top: 100px;
   border: 0;
 }
-.mail {
+@media (max-width: 900px) {
+  .headshot-image {
+    width: 400%;
+    text-align: start;
+    margin: 0;
+  }
+  h1 {
+    font-size: 50px;
+    text-align: start;
+  }
+  h2 {
+    font-size: 40px;
+    text-align: start;
+    margin-bottom: 50px;
+    color: var(--primary-color1);
+    background: rgb(255, 255, 255, 0.4);
+    padding: 8px, 10px;
+    border-radius: 4px;
+  }
+  .info {
+    margin-top: 0;
+    font-size: 25px;
+    font-weight: bold;
+    color: var(--primary-color1);
+    background: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+    border-radius: 4px;
+  }
+  .contact-info {
+    margin-top: 80px;
+  }
 }
