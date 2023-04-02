@@ -69,6 +69,19 @@ p {
   width: 100%;
   border: 0;
 }
+.info a {
+  color: var(--primary-color1);
+  text-decoration: none;
+  transition: all 140ms ease-in-out;
+  font-weight: 500;
+}
+.info :hover {
+  text-decoration: underline;
+  color: var(--primary-color3);
+}
+.headshot-image {
+  margin-bottom: 120px;
+}
 @media (max-width: 900px) {
   .headshot-image {
     width: 400%;
