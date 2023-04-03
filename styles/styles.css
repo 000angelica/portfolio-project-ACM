@@ -64,19 +64,28 @@ h2 {
   font-size: 30px;
   font-weight: normal;
 }
-.index-heading {
-  font-size: 50px;
+a,
+.all-projects {
+  font-size: 35px;
   text-align: center;
   margin-top: 100px;
   color: var(--primary-color1);
+  transition: all 140ms ease-in-out;
+  text-decoration: none;
 }
-.index-heading:hover {
+a,
+.all-projects:hover {
   text-decoration: underline;
+  color: var(--primary-color3);
 }
 .container {
   justify-content: space-evenly;
 }
-
+.view-all {
+  color: var(--primary-color1);
+  transition: all 140ms ease-in-out;
+  text-decoration: none;
+}
 .col-4 {
   width: fit-content;
 }
